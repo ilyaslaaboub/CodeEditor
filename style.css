@@ -1,0 +1,48 @@
+*{
+  
+    font-family: sans-serif;
+}
+main{
+    text-align: center;
+}
+#codes{
+    width: 95%;
+    min-height: 300px;
+    border-radius: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px 8px;
+    margin:15px 0;
+    font-size: 16px;
+}
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+#buttons button{
+    width: 190px;
+    border-radius: 20px;
+    padding: 6px;
+}
+#delet{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+#run{
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#title-result{
+    border-bottom: 2px solid rgb(0, 0, 0);
+    margin: 8px 0px;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+#results{
+    max-width: 100% !important;
+    font-size: 16px;
+}
